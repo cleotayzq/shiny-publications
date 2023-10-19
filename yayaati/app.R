@@ -191,6 +191,9 @@ keywords <- publications$keywords %>%
 # --------------------------
 
 ui <- fluidPage(
+    tags$head(
+    tags$title("My Shiny App")
+    ),
     theme = shinytheme("darkly"),
     tags$style(HTML('
     a {
